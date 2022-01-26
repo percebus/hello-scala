@@ -26,4 +26,6 @@ object Geeks extends App {
 
   // using Assignment Operators
   println ("Addition Assignment Operator: " + (x += four) ) // () // TODO understand WHY?
+
+  println("Did x change?: " + x) // 14 // yes!
 }
