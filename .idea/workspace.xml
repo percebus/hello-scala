@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aa7717a4-15d1-4762-9d0f-cbb9a20e2be4" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change afterPath="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/Geeks.scala" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala" afterDir="false" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,7 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
+=======
+      <file pinned="false" current-in-tab="false">
+>>>>>>> feat(GeeksForGeeks.org tutorial)
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/Geeks.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
@@ -25,11 +33,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="164">
               <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
             </state>
           </provider>
         </entry>
@@ -62,8 +78,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/Geeks.scala" />
+=======
+        <option value="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/Geeks.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
       </list>
     </option>
   </component>
@@ -192,13 +213,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="784000" />
+=======
+    <option name="totallyTimeSpent" value="945000" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25322813" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25322813" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -207,7 +236,11 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+=======
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -215,7 +248,11 @@
       <window_info anchor="bottom" id="Build" order="7" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.3299363" />
       <window_info anchor="bottom" id="sbt-shell-toolwindow" order="9" weight="0.3299363" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3299363" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3299363" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -253,6 +290,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/package.scala">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -264,6 +302,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/introduction/Geeks.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/org/GeeksForGeeks/tutorial/operators/Geeks.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+>>>>>>> feat(GeeksForGeeks.org tutorial)
         </state>
       </provider>
     </entry>
