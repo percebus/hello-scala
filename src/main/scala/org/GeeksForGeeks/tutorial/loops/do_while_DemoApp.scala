@@ -8,9 +8,9 @@ package org.GeeksForGeeks.tutorial.loops
   */
 object do_while_DemoApp extends App {
 
-  var a = 10
+  var a:Int = 10
   do {
-    print(a + " ")
+    print(a+" ")
     a -= 1
-  } while ( { a > 0 })
+  } while ({ a > 0 })
 }

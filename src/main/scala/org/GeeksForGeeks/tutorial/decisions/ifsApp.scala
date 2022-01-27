@@ -9,9 +9,9 @@ package org.GeeksForGeeks.tutorial.decisions
   *
   * Process finished with exit code 0
   */
-object testApp extends App {
+object ifsApp extends App {
 
-  var a:Int = 650
+  val a:Int = 650
 
   /* if the remainder of a division /2 is 0
    * it's an even number

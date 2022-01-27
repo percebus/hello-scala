@@ -12,8 +12,8 @@ package org.GeeksForGeeks.tutorial.loops
   */
 object whileDemoApp extends App {
 
-  var x = 1
-  while ({ x <= 4 }) {// Exit when x becomes greater than 4
+  var x:Int = 1
+  while ({ x <= 4 }) { // Exit when x becomes greater than 4
     println("Value of x: " + x)
     x += 1
   }

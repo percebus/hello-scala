@@ -11,7 +11,7 @@ package org.GeeksForGeeks.tutorial.loops
   */
 object forDemoApp extends App {
 
-  var y = 0
+  var y:Int = 0
   for (y <- 1 to 4) { // for loop execution with range
     println("Value of y is: " + y)
   }
