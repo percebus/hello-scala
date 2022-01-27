@@ -1,7 +1,19 @@
 package org.GeeksForGeeks.tutorial.operators
 
 
-object Geeks extends App {
+/** Output:
+  *
+  * 10 + 4: 14
+  * 10 - 4: 6
+  * Equal To Operator is False
+  * (true || false): true
+  * Bitwise AND: 0
+  * Addition Assignment Operator: ()
+  * Did x change?: 14
+  *
+  * Process finished with exit code 0
+  */
+object geeksApp extends App {
   var x = 10
   val four = 4
   val isTrue = true
@@ -29,3 +41,4 @@ object Geeks extends App {
 
   println("Did x change?: " + x) // 14 // yes!
 }
+
