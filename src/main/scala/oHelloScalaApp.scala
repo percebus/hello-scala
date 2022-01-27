@@ -10,7 +10,7 @@
   *
   * Process finished with exit code 0
   */
-object HelloScalaApp extends App {
+object oHelloScalaApp extends App {
   val string = "This is a string.- "
   println(string)
 
