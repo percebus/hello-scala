@@ -5,7 +5,7 @@ class Smartphone {
   val name:String = "Apple"
   val generation:Int = 16
 
-  def display():Unit = {
+  def print():Unit = {
     println("Name of the company : "+name)
     println("Total number of Smartphone generation: "+generation)
   }
@@ -19,7 +19,7 @@ class Smartphone {
   *
   * Process finished with exit code 0
   */
-object MainApp extends App {
+object SmartphoneApp extends App {
   val oSmartphone:Smartphone = new Smartphone()
-  oSmartphone.display()
+      oSmartphone print
 }
