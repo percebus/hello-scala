@@ -1,5 +1,4 @@
-package org.GeeksForGeeks.tutorial.arrays
-
+package org.GeeksForGeeks.tutorial.collections.arrays
 
 /** Output:
   *

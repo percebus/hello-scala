@@ -3,8 +3,8 @@ package org.GeeksForGeeks.tutorial.exceptions
 
 /** Output:
   *
-  * IllegalArgument Exception
-  * Number must be positive
+  * Arithmetic Exception
+  * / by zero
   *
   * Process finished with exit code 0
   */
@@ -21,11 +21,16 @@ object validateApp extends App {
 
   try {
     val number = -1
-    validate(number)
+    validate(number/0)
     println("This is a valid number") // This gets ignored
   } catch {
     case oException:IllegalArgumentException => {
       println("IllegalArgument Exception")
+      println(oException getMessage)
+    }
+
+    case oException:ArithmeticException => { // << /0
+      println("Arithmetic Exception")
       println(oException getMessage)
     }
 
