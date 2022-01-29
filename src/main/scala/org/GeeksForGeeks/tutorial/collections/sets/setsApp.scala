@@ -20,7 +20,7 @@ import scala.collection.immutable._ // XXX? works w/o it
   * Scala C# Ruby PHP C Java
   * Process finished with exit code 0
   */
-object listsApp extends App {
+object setsApp extends App {
   val explicitSet:Set[String] = Set(
     "Geeks", "Geeks",
     "GFG", "GFG", "GFG",
