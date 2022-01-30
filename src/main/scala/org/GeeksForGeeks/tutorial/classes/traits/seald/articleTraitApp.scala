@@ -27,7 +27,7 @@ class CSharpArticle extends Article {
   */
 object articleTraitApp extends App {
 
-  def matchArticle(article:Article):String = article match {
+  def getLanguageArticle(article:Article):String = article match {
     case oArticle:CSharpArticle => oArticle.article
     case oArticle: ScalaArticle => oArticle.article
     case oArticle:  JavaArticle => oArticle.article
@@ -37,7 +37,7 @@ object articleTraitApp extends App {
   val  scalaArticle = new  ScalaArticle
   val   javaArticle = new   JavaArticle
 
-  println( matchArticle(javaArticle)   )
-  println( matchArticle(scalaArticle)  )
-  println( matchArticle(cSharpArticle) )
+  println( getLanguageArticle(javaArticle)   )
+  println( getLanguageArticle(scalaArticle)  )
+  println( getLanguageArticle(cSharpArticle) )
 }
