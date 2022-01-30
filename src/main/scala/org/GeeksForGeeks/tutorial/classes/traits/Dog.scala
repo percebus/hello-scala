@@ -17,11 +17,11 @@ trait Pet extends Animal {
 class Dog(name:String, color:String) extends Pet {
 
   def print_color():Unit = { // implementation of abstract method
-    println( "Color: '%s'".format(this.color) )
+    printf("Color: '%s'\n", this.color)
   }
 
   def print_name():Unit = {
-    println( "Name: '%s'".format(this.name) )
+    printf("Name: '%s'\n", this.name)
   }
 }
 

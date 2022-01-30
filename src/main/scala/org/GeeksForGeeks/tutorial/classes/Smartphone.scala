@@ -20,6 +20,6 @@ class Smartphone {
   * Process finished with exit code 0
   */
 object SmartphoneApp extends App {
-  val oSmartphone:Smartphone = new Smartphone()
-      oSmartphone print
+  val oSmartphone:Smartphone = new Smartphone
+      oSmartphone print()
 }

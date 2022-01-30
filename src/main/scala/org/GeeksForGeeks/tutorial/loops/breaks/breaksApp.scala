@@ -16,7 +16,7 @@ object breaksApp extends App {
   xBreaks.breakable { // breakable is used to prevent from exception
     var x = 0
     for (x <- List(5, 10, 15)) {
-      print( "\n%s:".format(x) )
+      printf("\n%s:", x)
 
       val yBreaks = new Breaks
       yBreaks.breakable {
