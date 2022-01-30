@@ -1,4 +1,4 @@
-package org.GeeksForGeeks.tutorial.introduction
+package org.GeeksForGeeks.tutorial
 
 
 object oGeeks {
