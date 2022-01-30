@@ -6,7 +6,11 @@ package org.GeeksForGeeks.tutorial.strings
   * String 1:Welcome! GeeksforGeeks
   * String 2: to Portal
   * New String :Welcome! GeeksforGeeks  to Portal
-  * This is the tutorial of Scala language on GFG portal
+  *
+  *     This is the tutorial
+  *     of Scala language
+  *     on GFG portal
+  *
   *
   * Process finished with exit code 0
   */
@@ -21,8 +25,9 @@ object mainApp extends App {
   val newString:String = implicitString.concat(explicitString)
   println("New String :"+newString)
 
-  println("" +
-    "This is the tutorial" +
-    " of Scala language" +
-    " on GFG portal")
+  println("""
+    This is the tutorial
+    of Scala language
+    on GFG portal
+  """)
 }

@@ -1,21 +1,27 @@
 package org.GeeksForGeeks.tutorial.classes.traits
 
-trait Pet { // kinda like abstract interfaces
-  def print_race()
-  def print_color()
-}
 
-class Dog(name:String, color:String) extends Pet {
-  override def print_race():Unit = {
+trait Animal { // kinda like abstract interfaces
+  def print_color():Unit // abstract method
+
+  def print_race():Unit = {
     println("Race: "+this.getClass)
   }
+}
 
-  override def print_color():Unit = {
-    println( "Color: '%s'".format(color) )
+trait Pet extends Animal {
+  def print_name():Unit // abstract method
+}
+
+
+class Dog(name:String, color:String) extends Pet {
+
+  def print_color():Unit = { // implementation of abstract method
+    println( "Color: '%s'".format(this.color) )
   }
 
   def print_name():Unit = {
-    println( "Name: '%s'".format(name) )
+    println( "Name: '%s'".format(this.name) )
   }
 }
 
@@ -28,7 +34,8 @@ class Dog(name:String, color:String) extends Pet {
   *
   * Process finished with exit code 0
   */
-object TraitsApp extends App {
+object traitsApp extends App {
+
   val dollarDog = new Dog(name="Dollar", color="white")
       dollarDog.print_race()
       dollarDog print_color() // no '.'
