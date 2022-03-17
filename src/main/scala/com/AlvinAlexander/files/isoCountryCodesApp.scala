@@ -17,7 +17,7 @@ object isoCountryCodesApp extends App {
     .getLines
     .drop(1) // header
 
-  for (line:String <- lines) {
+  lines.foreach { line =>
     val cols = line
       .split(",")
       .map(_.trim)
