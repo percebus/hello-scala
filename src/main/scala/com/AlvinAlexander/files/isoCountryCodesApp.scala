@@ -12,35 +12,33 @@ import scala.io.BufferedSource
 object isoCountryCodesApp extends App {
   val countries = collection.mutable.Map[  String,  Map[String, String]  ]()
   val csvBufferedSource:BufferedSource = io.Source.fromResource("wikipedia-iso-country-codes.csv")
+      csvBufferedSource
+        .getLines
+        .drop(1) // header
+        .foreach { line =>
+          val cols = line
+            .split(",")
+            .map(_.trim)
 
-  val lines = csvBufferedSource
-    .getLines
-    .drop(1) // header
+          // DEBUG
+//        println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)}|${cols(4)}")
 
-  lines.foreach { line =>
-    val cols = line
-      .split(",")
-      .map(_.trim)
+          val shortName:String = s"${cols(0)}"    // "English short name lower case"
+          val alpha2:String = s"${cols(1)}"       // "Alpha-2 code"
+          val alpha3:String = s"${cols(2)}"       // "Alpha-3 code"
+          val numericCode:String = s"${cols(3)}"  // "Numeric code"
+//        val iso3166_2:String = s"${cols(4)}"    // "ISO 3166-2" // XXX? duplicates alpha-2
 
-    // DEBUG
-//  println(s"${cols(0)}|${cols(1)}|${cols(2)}|${cols(3)}|${cols(4)}")
+          countries(alpha3) = Map(
+            "shortName"-> shortName,
+            "alpha2" -> alpha2,
+            "alpha3" -> alpha3,
+            "numericCode" -> numericCode
+          )
+        }
 
-    // English short name lower case,Alpha-2 code,Alpha-3 code,Numeric code,ISO 3166-2
-    val shortName:String = s"${cols(0)}"
-    val alpha2:String = s"${cols(1)}"
-    val alpha3:String = s"${cols(2)}"
-    val numericCode:String = s"${cols(3)}"
-//  val iso3166_2:String = s"${cols(4)}" // XXX? duplicates alpha-2
+  csvBufferedSource.close()
 
-    val codes:Map[String, String] = Map(
-      "shortName"-> shortName,
-      "alpha2" -> alpha2,
-      "alpha3" -> alpha3,
-      "numericCode" -> numericCode
-    )
-
-    countries(alpha3) = codes
-  }
 
   val jsonString:String = Json(DefaultFormats).writePretty(countries)
   println(jsonString)
