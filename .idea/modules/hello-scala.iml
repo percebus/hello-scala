@@ -16,11 +16,11 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="sbt: org.scala-lang:scala-library:2.12.7:jar" level="project" />
-    <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-ast_2.12:4.0.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.12:4.0.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-native-core_2.12:4.0.4:jar" level="project" />
-    <orderEntry type="library" name="sbt: org.json4s:json4s-native_2.12:4.0.4:jar" level="project" />
     <orderEntry type="library" name="sbt: org.json4s:json4s-scalap_2.12:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-native_2.12:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-native-core_2.12:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-core_2.12:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: org.json4s:json4s-ast_2.12:4.0.4:jar" level="project" />
+    <orderEntry type="library" name="sbt: com.thoughtworks.paranamer:paranamer:2.8:jar" level="project" />
   </component>
 </module>
