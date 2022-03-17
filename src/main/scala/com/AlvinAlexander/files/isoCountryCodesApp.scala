@@ -16,7 +16,9 @@ object isoCountryCodesApp extends App {
         .getLines
         .drop(1) // header
         .foreach { line =>
-          val cols = line
+
+//        val Array(shortName, alpha2, alpha3, numericCode, iso3166_2) = line // TODO?
+          val cols = line                                                     // XXX?
             .split(",")
             .map(_.trim)
 
