@@ -57,3 +57,5 @@
 /build-sbt/
 local.sbt
 jitwatch.out
+
+tmp/
